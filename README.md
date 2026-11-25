@@ -5,9 +5,7 @@
 > Uma ferramenta de limpeza de sistema leve, minimalista e elegante para Windows, desenvolvida em Python com Flet.
 
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue?style=for-the-badge&logo=python&logoColor=white)
-
 ![Flet](https://img.shields.io/badge/Flet-UI-purple?style=for-the-badge)
-
 ![Platform](https://img.shields.io/badge/Platform-Windows-lightgrey?style=for-the-badge&logo=windows&logoColor=white)
 
 </div>
