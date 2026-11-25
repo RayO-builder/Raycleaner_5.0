@@ -70,3 +70,25 @@ Caso prefira rodar o projeto diretamente pelo Python:
    ```bash
    git clone [https://github.com/RayO-builder/RayCleaner-5.0.git](https://github.com/RayO-builder/RayCleaner-5.0.git)
    cd RayCleaner-5.0
+   ```
+3. Instale as dependências necessárias:
+   ```bash
+   pip install flet
+   ```
+4. Execute a aplicação (como Administrador no terminal):
+   ```bash
+   python interface.py
+   ```
+
+---
+
+## Requisitos de Execução
+
+- **Sistema Operacional:** Windows 10 ou 11.
+- **Privilégios:** O aplicativo exige permissões de **Administrador** para conseguir limpar corretamente os diretórios protegidos do sistema (`Temp` e `Prefetch`).
+
+---
+
+## Contribuindo
+
+Contribuições são sempre bem-vindas! Sinta-se à vontade para abrir uma *issue* ou enviar um *pull request* com melhorias, correções de bugs ou novas ideias.
