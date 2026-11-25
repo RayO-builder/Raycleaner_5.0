@@ -40,6 +40,16 @@ O **RayCleaner 5.0** evolui o conceito original para oferecer uma interface aind
 
 ---
 
+## Aviso do Windows Defender / SmartScreen
+
+Ao abrir o executável `.exe` baixado na aba **Releases**, o **Microsoft Defender SmartScreen** pode exibir um aviso dizendo que o Windows protegeu o computador.
+
+- Isso ocorre porque o binário é distribuído de forma independente, sem certificado pago de assinatura digital (*Code Signing*) e sem histórico de downloads no Windows.
+- O código-fonte completo do projeto está aberto neste repositório (`interface.py` e `limpador.py`), permitindo que você inspecione exatamente o que é executado ou compile o app por conta própria.
+- Caso confie na origem, clique em **Mais informações** e depois em **Executar assim mesmo**.
+
+---
+
 ## Como Instalar e Executar
 
 Você pode usar o aplicativo de duas formas: através do arquivo executável pronto ou pelo código-fonte.
@@ -48,7 +58,8 @@ Você pode usar o aplicativo de duas formas: através do arquivo executável pro
 
 1. Acesse a aba **Releases** no lado direito do repositório.
 2. Baixe o arquivo `.exe` da versão mais recente do **RayCleaner 5.0**.
-3. Clique com o botão direito sobre o arquivo baixado e selecione **Executar como Administrador** (necessário para limpar pastas do sistema como Temp e Prefetch).
+3. Caso apareça o aviso do SmartScreen, clique em **Mais informações** e em **Executar assim mesmo**.
+4. Clique com o botão direito sobre o arquivo baixado e selecione **Executar como Administrador** (necessário para limpar pastas do sistema como Temp e Prefetch).
 
 ---
 
@@ -59,27 +70,5 @@ Caso prefira rodar o projeto diretamente pelo Python:
 1. Certifique-se de ter o **Python 3.8+** instalado em sua máquina.
 2. Clone este repositório:
    ```bash
-   git clone [https://github.com/RayO-builder/RayCleaner4000.git](https://github.com/RayO-builder/RayCleaner4000.git)
-   cd RayCleaner4000
-   ```
-3. Instale as dependências necessárias:
-   ```bash
-   pip install flet
-   ```
-4. Execute a aplicação (como Administrador no terminal):
-   ```bash
-   python interface.py
-   ```
-
----
-
-## Requisitos de Execução
-
-- **Sistema Operacional:** Windows 10 ou 11.
-- **Privilégios:** O aplicativo exige permissões de **Administrador** para conseguir limpar corretamente os diretórios protegidos do sistema (`Temp` e `Prefetch`).
-
----
-
-## Contribuindo
-
-Contribuições são sempre bem-vindas! Sinta-se à vontade para abrir uma *issue* ou enviar um *pull request* com melhorias, correções de bugs ou novas ideias.
+   git clone [https://github.com/RayO-builder/RayCleaner-5.0.git](https://github.com/RayO-builder/RayCleaner-5.0.git)
+   cd RayCleaner-5.0
