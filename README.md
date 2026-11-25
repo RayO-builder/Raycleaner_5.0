@@ -44,8 +44,8 @@ Você pode usar o aplicativo de duas formas: através do arquivo executável pro
 
 ### Opção 1: Executável Pronto (Recomendado)
 
-1. Clique na pasta **executável** no repositório.
-2. Faça o download do arquivo `.exe` presente dentro da pasta.
+1. Acesse a aba **Releases** no lado direito do repositório.
+2. Baixe o arquivo `.exe` da versão mais recente do **RayCleaner 5.0**.
 3. Clique com o botão direito sobre o arquivo baixado e selecione **Executar como Administrador** (necessário para limpar pastas do sistema como Temp e Prefetch).
 
 ---
@@ -59,3 +59,25 @@ Caso prefira rodar o projeto diretamente pelo Python:
    ```bash
    git clone [https://github.com/RayO-builder/RayCleaner4000.git](https://github.com/RayO-builder/RayCleaner4000.git)
    cd RayCleaner4000
+   ```
+3. Instale as dependências necessárias:
+   ```bash
+   pip install flet
+   ```
+4. Execute a aplicação (como Administrador no terminal):
+   ```bash
+   python interface.py
+   ```
+
+---
+
+## Requisitos de Execução
+
+- **Sistema Operacional:** Windows 10 ou 11.
+- **Privilégios:** O aplicativo exige permissões de **Administrador** para conseguir limpar corretamente os diretórios protegidos do sistema (`Temp` e `Prefetch`).
+
+---
+
+## Contribuindo
+
+Contribuições são sempre bem-vindas! Sinta-se à vontade para abrir uma *issue* ou enviar um *pull request* com melhorias, correções de bugs ou novas ideias.
